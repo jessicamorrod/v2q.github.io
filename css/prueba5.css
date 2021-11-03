@@ -1,0 +1,36 @@
+
+  
+  img{
+    width: 80%;
+    margin: 1%;
+    transition: all 2s, transform 0.5s, box-shadow 0.5s ;
+  }
+  
+  img:hover{
+    transform: scale(1.001); box-shadow: 7px 7px 10px rgba(0,0, 0, .7);
+  }
+  
+  img:focus{
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 7px 7px 10px rgba(0,0, 0, .7);
+    transform: none;
+  }
+  @media only screen and (min-width: 600px){
+    img{width:40%;
+    margin:1%;}
+    img:focus{
+      width:50%;
+    }
+  }
+  @media only screen and (min-width:950px){
+    img{
+      width:23%;
+    }
+    img:focus{
+     width:45%;
+    } 
+  }
+  
+    
+  
